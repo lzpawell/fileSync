@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_refresh"
+        android:orderInCategory="1"
+        android:icon="@drawable/refresh"
+        android:title="刷新"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/item_mk_dir"
+        android:orderInCategory="2"
+        android:icon="@drawable/new_folder"
+        android:title="新建文件夹"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/item_search"
+        android:orderInCategory="80"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+</menu>
